@@ -37,11 +37,23 @@ Output: `slides-export.pdf` in the project root.
 
 ```
 context-engineering-meetup/
-├── slides.md         ← main slidev file (one file, all slides)
+├── slides.md         ← V2 oficial (29 slides, deck actual)
+├── slides-v0.md      ← V1 archivado (33 slides, deck inicial)
 ├── package.json
 ├── README.md
 ├── .gitignore
 └── public/           ← static assets (images, screenshots, diagrams)
+```
+
+## Versiones
+
+- **V2 (actual):** `slides.md` — reorganización con focus en estándares (AGENTS.md/SKILL.md), comparativa de arquitectura sin/con CE, ejemplos verbatim de bank-pro, y cierre con feedback form + QR. Ver [V2 Plan note](../../bcd-vault/agent-brain/20-Drafts/authored/Context%20Engineering%20Presentation%20-%20V2%20Plan.md) para detalle de decisiones.
+- **V0 (archivado):** `slides-v0.md` — primera versión completa basada en 6 grupos topic-por-topic. Reemplazada por V2 pero conservada para referencia.
+
+Para correr la versión archivada:
+
+```bash
+npx slidev slides-v0.md --port 3032
 ```
 
 ## Conventions

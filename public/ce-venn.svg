@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" font-family="'Virgil', 'Comic Sans MS', 'Segoe Print', cursive">
+  <!-- Context Engineering: outer blue ellipse -->
+  <ellipse cx="720" cy="470" rx="560" ry="400"
+           fill="#a5c8e8" fill-opacity="0.55"
+           stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="720" y="130" text-anchor="middle"
+        font-size="44" font-weight="600" fill="#1a1a1a">Context Engineering</text>
+
+  <!-- Structured Outputs (peach/orange) — partially outside the blue, overlaps Prompt -->
+  <ellipse cx="325" cy="580" rx="160" ry="145"
+           fill="#f5c89a" fill-opacity="0.55"
+           stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="270" y="568" text-anchor="middle"
+        font-size="28" fill="#1a1a1a">Structured</text>
+  <text x="270" y="600" text-anchor="middle"
+        font-size="28" fill="#1a1a1a">Outputs</text>
+
+  <!-- Prompt Engineering (yellow) -->
+  <circle cx="580" cy="510" r="160"
+          fill="#f5e16a" fill-opacity="0.6"
+          stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="545" y="478" text-anchor="middle"
+        font-size="30" fill="#1a1a1a">Prompt</text>
+  <text x="545" y="513" text-anchor="middle"
+        font-size="30" fill="#1a1a1a">Engineering</text>
+
+  <!-- RAG (purple) -->
+  <circle cx="725" cy="370" r="170"
+          fill="#c4b5e8" fill-opacity="0.55"
+          stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="725" y="285" text-anchor="middle"
+        font-size="34" fill="#1a1a1a">RAG</text>
+
+  <!-- State / History (mauve/pink) -->
+  <circle cx="870" cy="510" r="165"
+          fill="#d8a8c8" fill-opacity="0.55"
+          stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="945" y="500" text-anchor="middle"
+        font-size="30" fill="#1a1a1a">State /</text>
+  <text x="945" y="535" text-anchor="middle"
+        font-size="30" fill="#1a1a1a">History</text>
+
+  <!-- Memory (green) -->
+  <circle cx="725" cy="630" r="170"
+          fill="#a8d4b8" fill-opacity="0.55"
+          stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="725" y="760" text-anchor="middle"
+        font-size="30" fill="#1a1a1a">Memory</text>
+</svg>

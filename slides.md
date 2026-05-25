@@ -51,17 +51,17 @@ layout: default
 
 <div v-click class="border-t-4 border-green-500 pt-4">
 <div class="text-2xl font-bold">⚡ Velocidad</div>
-<div class="text-base mt-3 opacity-85">De idea a demo en una tarde. A veces en horas.</div>
+<div class="text-lg mt-3 opacity-85">De idea a demo en una tarde. A veces en horas.</div>
 </div>
 
 <div v-click class="border-t-4 border-blue-500 pt-4">
 <div class="text-2xl font-bold">🚪 Low barrier</div>
-<div class="text-base mt-3 opacity-85">Cero curva de aprendizaje. Empiezas y avanzas.</div>
+<div class="text-lg mt-3 opacity-85">Cero curva de aprendizaje. Empiezas y avanzas.</div>
 </div>
 
 <div v-click class="border-t-4 border-purple-500 pt-4">
 <div class="text-2xl font-bold">🔍 Exploración</div>
-<div class="text-base mt-3 opacity-85">Ideal para validar una idea antes de invertir tiempo serio.</div>
+<div class="text-lg mt-3 opacity-85">Ideal para validar una idea antes de invertir tiempo serio.</div>
 </div>
 
 </div>
@@ -80,7 +80,7 @@ layout: default
 
 <div class="border-l-4 border-green-500 pl-5">
 <div class="text-2xl font-bold">Greenfield <span class="text-green-500">✓</span></div>
-<div class="text-base mt-4 opacity-90 leading-relaxed">
+<div class="text-lg mt-4 opacity-90 leading-relaxed">
 Idea → demo en horas.<br/>
 Sin lineamientos previos, vibe coding alcanza.
 </div>
@@ -88,7 +88,7 @@ Sin lineamientos previos, vibe coding alcanza.
 
 <div v-click class="border-l-4 border-red-500 pl-5">
 <div class="text-2xl font-bold">Brownfield <span class="text-red-500">✗</span></div>
-<div class="text-base mt-4 opacity-90 leading-relaxed">
+<div class="text-lg mt-4 opacity-90 leading-relaxed">
 Tu proyecto productivo tiene lineamientos. Dos trampas:
 <ul class="mt-3 ml-4 list-disc">
 <li>Repites TODO cada iteración</li>
@@ -124,7 +124,7 @@ layout: center
 "Most agent failures are not model failures anymore, they are <span class="text-red-500 font-semibold not-italic">context failures</span>."
 </div>
 
-<div class="text-right mt-12 text-base opacity-80">
+<div class="text-right mt-12 text-lg opacity-80">
 — <strong>Phil Schmid</strong><br/>
 <span class="text-sm opacity-60">2025</span>
 </div>
@@ -159,7 +159,7 @@ layout: center
 
 </div>
 
-<div class="text-right mt-12 text-sm opacity-60">
+<div class="text-right mt-12 text-base opacity-60">
 — Drew Breunig · 2025-06
 </div>
 
@@ -226,11 +226,11 @@ layout: default
 
 <div class="mt-10 max-w-4xl mx-auto">
 
-<div class="text-lg italic leading-relaxed">
+<div class="text-xl italic leading-relaxed">
 "Context engineering is the <span class="font-semibold not-italic">delicate art and science</span> of filling the context window with just the right information for the next step."
 </div>
 
-<div class="text-right mt-3 text-sm">
+<div class="text-right mt-3 text-base">
 — <strong>Andrej Karpathy</strong> · 2025-06-25 · <span class="opacity-60 italic">(poética)</span>
 </div>
 
@@ -238,11 +238,11 @@ layout: default
 
 <div class="mt-12 max-w-4xl mx-auto">
 
-<div class="text-lg italic leading-relaxed">
+<div class="text-xl italic leading-relaxed">
 "Context engineering is <span class="font-semibold not-italic">building dynamic systems</span> to provide the right information and tools in the right format such that the LLM can plausibly accomplish the task."
 </div>
 
-<div class="text-right mt-3 text-sm">
+<div class="text-right mt-3 text-base">
 — <strong>Harrison Chase</strong> · LangChain · 2025-06-23 · <span class="opacity-60 italic">(operacional)</span>
 </div>
 
@@ -257,7 +257,7 @@ layout: default
 # Lo que involucra Context Engineering
 
 <div class="flex justify-center mt-4">
-<img :src="`/ce-scope.png`" alt="Context Engineering scope by Dex Horthy" class="max-h-80 object-contain" />
+<img :src="`/ce-venn.svg`" alt="Context Engineering scope by Dex Horthy" class="max-h-80 object-contain" />
 </div>
 
 <div class="text-right text-xs opacity-60 mt-2 mr-12">
@@ -276,7 +276,7 @@ layout: default
 
 # Prompt Engineering ≠ Context Engineering
 
-<div class="mt-6 text-sm">
+<div class="mt-6 text-base">
 
 |                  | **Prompt Engineering** | **Context Engineering**                       |
 |------------------|------------------------|-----------------------------------------------|
@@ -288,7 +288,7 @@ layout: default
 
 </div>
 
-<div class="text-center mt-12 text-2xl italic">
+<div class="text-center mt-12 text-3xl italic">
 "Prompt engineering is a <span class="text-red-500 font-semibold not-italic">subset</span> of context engineering."
 </div>
 
@@ -311,7 +311,7 @@ layout: default
 <div class="text-sm opacity-70 mt-1">
 <a href="https://agents.md" class="underline">agents.md</a>
 </div>
-<div class="text-base mt-8 leading-relaxed">
+<div class="text-lg mt-8 leading-relaxed">
 El <strong>entry point</strong> del agente.<br/>
 Se carga al inicio de cada sesión.
 </div>
@@ -322,7 +322,7 @@ Se carga al inicio de cada sesión.
 <div class="text-sm opacity-70 mt-1">
 <a href="https://agentskills.io" class="underline">agentskills.io</a>
 </div>
-<div class="text-base mt-8 leading-relaxed">
+<div class="text-lg mt-8 leading-relaxed">
 <strong>Procedural how-to</strong>.<br/>
 Se carga on-demand cuando se invoca.
 </div>
@@ -355,7 +355,7 @@ layout: default
 </div>
 
 <div class="absolute bottom-12 left-0 right-0 text-center max-w-3xl mx-auto px-12">
-<div class="text-base border-t border-gray-300 pt-4">
+<div class="text-lg border-t border-gray-300 pt-4">
 Se carga <strong>al inicio</strong> de cada sesión. Todo el documento. Cada vez.
 </div>
 </div>
@@ -372,7 +372,7 @@ layout: default
 <a href="https://agentskills.io" class="underline">agentskills.io</a> standard · developed by Anthropic
 </div>
 
-<div class="text-xl italic leading-relaxed max-w-4xl mx-auto mt-10">
+<div class="text-2xl italic leading-relaxed max-w-4xl mx-auto mt-10">
 "Full instructions load <span class="text-green-500 not-italic font-semibold">only when a task calls for them</span>, so agents can keep many skills on hand with only a <span class="text-red-500 not-italic font-semibold">small context footprint</span>."
 </div>
 
@@ -381,7 +381,7 @@ layout: default
 </div>
 
 <div class="absolute bottom-12 left-0 right-0 text-center max-w-3xl mx-auto px-12">
-<div class="text-base border-t border-gray-300 pt-4">
+<div class="text-lg border-t border-gray-300 pt-4">
 Se carga <strong>on-demand</strong> cuando el agente invoca la skill o tipeas <code>/skill-name</code>.
 </div>
 </div>
@@ -394,21 +394,16 @@ class: text-center
 <!-- Slide 16 — Theme 9: Memory Bank -->
 
 <div class="text-5xl font-bold leading-tight max-w-4xl mx-auto">
-Memory Bank <span class="opacity-50">existe.</span>
+Memory Bank <span class="opacity-50">exite</span>
 </div>
 
 <div v-click class="text-5xl font-bold leading-tight mt-4 max-w-4xl mx-auto">
-<span class="text-red-500">No lo usamos.</span>
+<span class="text-red-500">aunque, sin éstandar</span>
 </div>
 
 <div v-click class="text-sm opacity-60 mt-16 max-w-2xl mx-auto">
-Patrón community para Cline. Lo que cubre, ya lo cubrimos con AGENTS.md + SKILL.md.
+AGENTS.md y SKILL.md nos permiten cubrirlo.
 </div>
-
-<div class="text-xs opacity-50 mt-4">
-<a href="https://cline.bot" class="underline">cline.bot</a>
-</div>
-
 ---
 layout: default
 ---
@@ -695,27 +690,27 @@ layout: default
 
 <div class="text-sm opacity-70">Tres cosas que cambiaron cómo trabajo · 1 de 3</div>
 
-<div class="text-2xl font-semibold mt-8 max-w-4xl mx-auto">
+<div class="text-3xl font-semibold mt-8 max-w-4xl mx-auto">
 Sigue el <span class="text-blue-500">estándar</span> desde el día 1.
 </div>
 
 <div class="grid grid-cols-2 gap-12 mt-8 max-w-5xl mx-auto">
 
 <div class="border-t-4 border-blue-500 pt-4">
-<div class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">El estándar</div>
+<div class="text-sm font-semibold uppercase tracking-widest text-blue-500 mb-3">El estándar</div>
 
 ```text
 AGENTS.md
 .agents/skills/
 ```
 
-<div class="text-base mt-4 opacity-70">
+<div class="text-lg mt-4 opacity-70">
 Define una vez. Todos los CLIs lo respetan.
 </div>
 </div>
 
 <div v-click class="border-t-4 border-gray-300 pt-4">
-<div class="text-xs font-semibold uppercase tracking-widest opacity-50 mb-3">Adaptaciones por herramienta (symlinks)</div>
+<div class="text-sm font-semibold uppercase tracking-widest opacity-50 mb-3">Adaptaciones por herramienta (symlinks)</div>
 
 ```text
 CLAUDE.md        → AGENTS.md
@@ -723,7 +718,7 @@ CLAUDE.md        → AGENTS.md
 .cursor/rules/   → .agents/skills/
 ```
 
-<div class="text-base mt-4 opacity-70">
+<div class="text-lg mt-4 opacity-70">
 Cambia la herramienta, no el estándar.
 </div>
 </div>
@@ -842,8 +837,8 @@ layout: default
 <div class="grid grid-cols-3 gap-4 mt-10">
 
 <div class="border-t-4 border-yellow-500 pt-3">
-<div class="text-base font-bold">Prompt Engineering</div>
-<div class="text-xs mt-3 leading-relaxed">
+<div class="text-lg font-bold">Prompt Engineering</div>
+<div class="text-sm mt-3 leading-relaxed">
 <strong>Unit:</strong> un string<br/>
 <strong>Scope:</strong> 1 call<br/>
 <strong>Falla:</strong> "mal prompt"
@@ -851,8 +846,8 @@ layout: default
 </div>
 
 <div class="border-t-4 border-blue-500 pt-3">
-<div class="text-base font-bold">Context Engineering</div>
-<div class="text-xs mt-3 leading-relaxed">
+<div class="text-lg font-bold">Context Engineering</div>
+<div class="text-sm mt-3 leading-relaxed">
 <strong>Unit:</strong> context window<br/>
 <strong>Scope:</strong> sesión multi-turn<br/>
 <strong>Falla:</strong> 4 failure modes
@@ -860,8 +855,8 @@ layout: default
 </div>
 
 <div class="border-t-4 border-red-500 pt-3">
-<div class="text-base font-bold">Harness Engineering</div>
-<div class="text-xs mt-3 leading-relaxed">
+<div class="text-lg font-bold">Harness Engineering</div>
+<div class="text-sm mt-3 leading-relaxed">
 <strong>Unit:</strong> entorno completo<br/>
 <strong>Scope:</strong> multi-sesión long-horizon<br/>
 <strong>Falla:</strong> agent drift, slop accumulation
@@ -870,7 +865,7 @@ layout: default
 
 </div>
 
-<div class="text-center mt-10 text-base">
+<div class="text-center mt-10 text-lg">
 Cada disciplina <strong>contiene</strong> a la anterior.
 </div>
 
@@ -892,28 +887,28 @@ layout: default
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 
-<div class="text-base italic border-l-4 border-red-500 pl-4">
+<div class="text-lg italic border-l-4 border-red-500 pl-4">
 "Agent = Model + Harness.<br/>
 If you're not the model, you're the <strong class="not-italic">harness</strong>."
-<div class="text-right text-xs not-italic mt-3 opacity-70">— Addy Osmani</div>
+<div class="text-right text-sm not-italic mt-3 opacity-70">— Addy Osmani</div>
 </div>
 
-<div class="text-base italic border-l-4 border-orange-500 pl-4">
+<div class="text-lg italic border-l-4 border-orange-500 pl-4">
 "The most productive AI teams in 2026 spend more time building their <strong class="not-italic">harness</strong> than writing code."
-<div class="text-right text-xs not-italic mt-3 opacity-70">— Addi Engineering</div>
+<div class="text-right text-sm not-italic mt-3 opacity-70">— Addi Engineering</div>
 </div>
 
 </div>
 
-<div class="mt-8 text-base">
+<div class="mt-8 text-lg">
 Si esto les hizo sentido, el siguiente paso es:
 </div>
 
 <div class="text-sm mt-3 opacity-80 leading-loose">
-<code>sub-agents</code> · <code>MCP servers complejos</code> · <code>evals automatizados</code> · <code>CI loops para agentes</code> · <code>cloud agent infrastructure</code>
+<code>hooks</code> · <code>sub-agents</code> · <code>MCP servers</code> · <code>evals automatizados</code> · <code>CI loops para agentes</code> · <code>cloud agent infrastructure</code>
 </div>
 
-<div class="mt-4 text-base italic opacity-80">
+<div class="mt-4 text-lg italic opacity-80">
 Eso es harness engineering. Charla para otro meetup.
 </div>
 

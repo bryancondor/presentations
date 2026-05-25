@@ -14,19 +14,27 @@ mdc: true
 
 <!-- Slide 1 — Cover -->
 
-# Context Engineering
+<div class="absolute inset-0 flex flex-col justify-center px-16">
 
-<div class="text-3xl mt-4 opacity-90">
-Beyond the Vibe
+<div class="text-sm font-semibold tracking-widest uppercase mb-6" style="color: #6366f1; letter-spacing: 0.2em;">
+  Beyond the Vibe
 </div>
 
-<div class="mt-12 text-lg opacity-80 max-w-2xl mx-auto leading-relaxed">
-Usando context engineering para llevar flujos agénticos a producción
+<div class="text-6xl font-semibold mb-4" style="background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.02em; line-height: 1.15; padding-bottom: 0.1em;">
+  Context Engineering
 </div>
 
-<div class="absolute bottom-12 left-0 right-0 text-center text-base opacity-70">
-Bryan Condor · Software Engineer @ Addi<br/>
-<span class="text-sm opacity-60">Meetup · Mayo 2026</span>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, #3b82f6, #8b5cf6); margin-bottom: 2rem;"></div>
+
+<div class="text-xl opacity-70 max-w-xl leading-relaxed">
+  Usando context engineering para llevar<br/>flujos agénticos a producción
+</div>
+
+</div>
+
+<div class="absolute bottom-12 left-16">
+  <div class="text-lg font-semibold" style="color: #3b82f6;">Bryan Condor</div>
+  <div class="text-sm opacity-55 mt-1">Software Engineer @ Addi · Meetup · Mayo 2026</div>
 </div>
 
 ---
@@ -41,17 +49,17 @@ layout: default
 
 <div class="grid grid-cols-3 gap-6 mt-12">
 
-<div class="border-t-4 border-green-500 pt-4">
+<div v-click class="border-t-4 border-green-500 pt-4">
 <div class="text-2xl font-bold">⚡ Velocidad</div>
 <div class="text-base mt-3 opacity-85">De idea a demo en una tarde. A veces en horas.</div>
 </div>
 
-<div class="border-t-4 border-blue-500 pt-4">
+<div v-click class="border-t-4 border-blue-500 pt-4">
 <div class="text-2xl font-bold">🚪 Low barrier</div>
 <div class="text-base mt-3 opacity-85">Cero curva de aprendizaje. Empiezas y avanzas.</div>
 </div>
 
-<div class="border-t-4 border-purple-500 pt-4">
+<div v-click class="border-t-4 border-purple-500 pt-4">
 <div class="text-2xl font-bold">🔍 Exploración</div>
 <div class="text-base mt-3 opacity-85">Ideal para validar una idea antes de invertir tiempo serio.</div>
 </div>
@@ -78,7 +86,7 @@ Sin lineamientos previos, vibe coding alcanza.
 </div>
 </div>
 
-<div class="border-l-4 border-red-500 pl-5">
+<div v-click class="border-l-4 border-red-500 pl-5">
 <div class="text-2xl font-bold">Brownfield <span class="text-red-500">✗</span></div>
 <div class="text-base mt-4 opacity-90 leading-relaxed">
 Tu proyecto productivo tiene lineamientos. Dos trampas:
@@ -102,7 +110,7 @@ class: text-center
 No fue el modelo.
 </div>
 
-<div class="text-5xl font-bold mt-6 leading-tight">
+<div v-click class="text-5xl font-bold mt-6 leading-tight">
 Fue el <span class="text-red-500">contexto</span> que le di.
 </div>
 
@@ -129,22 +137,22 @@ layout: center
 
 <div class="grid grid-cols-2 gap-8 mt-12">
 
-<div class="border-l-4 border-red-500 pl-6">
+<div v-click class="border-l-4 border-red-500 pl-6">
   <div class="text-2xl font-bold">POISONING</div>
   <div class="text-lg mt-3 opacity-80">La alucinación que se autoreferencia sesión tras sesión</div>
 </div>
 
-<div class="border-l-4 border-orange-500 pl-6">
+<div v-click class="border-l-4 border-orange-500 pl-6">
   <div class="text-2xl font-bold">DISTRACTION</div>
   <div class="text-lg mt-3 opacity-80">Demasiado contexto: el modelo se pierde en él</div>
 </div>
 
-<div class="border-l-4 border-yellow-500 pl-6">
+<div v-click class="border-l-4 border-yellow-500 pl-6">
   <div class="text-2xl font-bold">CONFUSION</div>
   <div class="text-lg mt-3 opacity-80">El "por si acaso" que degrada la respuesta</div>
 </div>
 
-<div class="border-l-4 border-blue-500 pl-6">
+<div v-click class="border-l-4 border-blue-500 pl-6">
   <div class="text-2xl font-bold">CLASH</div>
   <div class="text-lg mt-3 opacity-80">Tu spec dice X, tu código hace Y</div>
 </div>
@@ -298,7 +306,7 @@ layout: default
 
 <div class="grid grid-cols-2 gap-10 mt-12">
 
-<div class="border-l-4 border-blue-500 pl-6 pt-2">
+<div v-click class="border-l-4 border-blue-500 pl-6 pt-2">
 <div class="text-3xl font-bold">AGENTS.md</div>
 <div class="text-sm opacity-70 mt-1">
 <a href="https://agents.md" class="underline">agents.md</a>
@@ -309,7 +317,7 @@ Se carga al inicio de cada sesión.
 </div>
 </div>
 
-<div class="border-l-4 border-purple-500 pl-6 pt-2">
+<div v-click class="border-l-4 border-purple-500 pl-6 pt-2">
 <div class="text-3xl font-bold">SKILL.md</div>
 <div class="text-sm opacity-70 mt-1">
 <a href="https://agentskills.io" class="underline">agentskills.io</a>
@@ -389,11 +397,11 @@ class: text-center
 Memory Bank <span class="opacity-50">existe.</span>
 </div>
 
-<div class="text-5xl font-bold leading-tight mt-4 max-w-4xl mx-auto">
+<div v-click class="text-5xl font-bold leading-tight mt-4 max-w-4xl mx-auto">
 <span class="text-red-500">No lo usamos.</span>
 </div>
 
-<div class="text-sm opacity-60 mt-16 max-w-2xl mx-auto">
+<div v-click class="text-sm opacity-60 mt-16 max-w-2xl mx-auto">
 Patrón community para Cline. Lo que cubre, ya lo cubrimos con AGENTS.md + SKILL.md.
 </div>
 
@@ -685,27 +693,40 @@ layout: default
 
 # Lecciones
 
-<div class="text-sm opacity-70">Lo que aprendí duro · 1 de 3</div>
+<div class="text-sm opacity-70">Tres cosas que cambiaron cómo trabajo · 1 de 3</div>
 
-<div class="mt-12 max-w-4xl mx-auto">
-
-<div class="text-3xl font-semibold leading-relaxed">
-Sigue el <span class="text-red-500">estándar</span> desde el día 1.
+<div class="text-2xl font-semibold mt-8 max-w-4xl mx-auto">
+Sigue el <span class="text-blue-500">estándar</span> desde el día 1.
 </div>
 
-<div class="text-xl mt-6 opacity-80">
-Compatibilidad multi-CLI vía <strong>symlinks</strong>.
-</div>
+<div class="grid grid-cols-2 gap-12 mt-8 max-w-5xl mx-auto">
 
-</div>
-
-<div class="mt-12 max-w-3xl mx-auto [&_pre]:p-6">
+<div class="border-t-4 border-blue-500 pt-4">
+<div class="text-xs font-semibold uppercase tracking-widest text-blue-500 mb-3">El estándar</div>
 
 ```text
-CLAUDE.md         → AGENTS.md
-.claude/skills/   → .agents/skills/
-.cursor/rules/    → .agents/skills/   (cuando lo necesites)
+AGENTS.md
+.agents/skills/
 ```
+
+<div class="text-base mt-4 opacity-70">
+Define una vez. Todos los CLIs lo respetan.
+</div>
+</div>
+
+<div v-click class="border-t-4 border-gray-300 pt-4">
+<div class="text-xs font-semibold uppercase tracking-widest opacity-50 mb-3">Adaptaciones por herramienta (symlinks)</div>
+
+```text
+CLAUDE.md        → AGENTS.md
+.claude/skills/  → .agents/skills/
+.cursor/rules/   → .agents/skills/
+```
+
+<div class="text-base mt-4 opacity-70">
+Cambia la herramienta, no el estándar.
+</div>
+</div>
 
 </div>
 
@@ -717,7 +738,7 @@ layout: default
 
 # Lecciones
 
-<div class="text-sm opacity-70">Lo que aprendí duro · 2 de 3</div>
+<div class="text-sm opacity-70">Tres cosas que cambiaron cómo trabajo · 2 de 3</div>
 
 <div class="mt-16 max-w-4xl mx-auto">
 
@@ -740,7 +761,7 @@ layout: default
 
 # Lecciones
 
-<div class="text-sm opacity-70">Lo que aprendí duro · 3 de 3</div>
+<div class="text-sm opacity-70">Tres cosas que cambiaron cómo trabajo · 3 de 3</div>
 
 <div class="mt-12 max-w-4xl mx-auto">
 
@@ -752,19 +773,19 @@ Las skills <span class="text-red-500">auditan</span> a las skills.
 
 <div class="grid grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
 
-<div class="border-l-4 border-purple-500 pl-5">
+<div v-click class="border-l-4 border-purple-500 pl-5">
 <div class="text-lg font-bold"><code>/audit-ai-docs</code></div>
 <div class="text-sm mt-2 opacity-80">Puntúa AGENTS.md + SKILL.md contra rúbrica de calidad. Surface gaps.</div>
 </div>
 
-<div class="border-l-4 border-green-500 pl-5">
+<div v-click class="border-l-4 border-green-500 pl-5">
 <div class="text-lg font-bold"><code>/sync-docs</code></div>
 <div class="text-sm mt-2 opacity-80">Detecta staleness después de cada feature. Avisa si la doc se desfasa del código.</div>
 </div>
 
 </div>
 
-<div class="mt-12 text-xl text-center opacity-90 max-w-3xl mx-auto">
+<div v-click class="mt-12 text-xl text-center opacity-90 max-w-3xl mx-auto">
 La disciplina se vuelve <strong>automática</strong>.
 </div>
 
@@ -786,7 +807,7 @@ Context engineering para <span class="text-blue-500">escalar</span>.
 
 </div>
 
-<div class="mt-10 flex items-center justify-center gap-5">
+<div v-click class="mt-10 flex items-center justify-center gap-5">
 
 <img :src="`/bryan-condor.png`" alt="Bryan Condor" class="w-20 h-20 rounded-full object-cover object-[center_25%]" />
 
@@ -798,7 +819,7 @@ Context engineering para <span class="text-blue-500">escalar</span>.
 
 </div>
 
-<div class="mt-8 flex flex-col items-center">
+<div v-click class="mt-8 flex flex-col items-center">
 
 <img :src="`/feedback-qr.png`" alt="Feedback QR — Google Forms" class="w-40 h-40" />
 

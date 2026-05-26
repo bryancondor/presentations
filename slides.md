@@ -185,7 +185,7 @@ layout: default
 # ¿Qué hay en el context-window?
 
 <div class="flex justify-center mt-4">
-<img :src="`${import.meta.env.BASE_URL}context-window-basic.png`" alt="Basic context window per turn" class="max-h-80 object-contain" />
+<img :src="`${$baseUrl}context-window-basic.png`" alt="Basic context window per turn" class="max-h-80 object-contain" />
 </div>
 
 <div class="text-center mt-4 text-base opacity-80 max-w-3xl mx-auto">
@@ -205,7 +205,7 @@ layout: default
 # ¿Y si agregas tools?
 
 <div class="flex justify-center mt-4">
-<img :src="`${import.meta.env.BASE_URL}context-window-with-tools.png`" alt="Context window with tools and extended thinking" class="max-h-80 object-contain" />
+<img :src="`${$baseUrl}context-window-with-tools.png`" alt="Context window with tools and extended thinking" class="max-h-80 object-contain" />
 </div>
 
 <div class="text-center mt-4 text-base opacity-80 max-w-3xl mx-auto">
@@ -257,7 +257,7 @@ layout: default
 # Lo que involucra Context Engineering
 
 <div class="flex justify-center mt-4">
-<img :src="`${import.meta.env.BASE_URL}ce-venn.svg`" alt="Context Engineering scope by Dex Horthy" class="max-h-80 object-contain" />
+<img :src="`${$baseUrl}ce-venn.svg`" alt="Context Engineering scope by Dex Horthy" class="max-h-80 object-contain" />
 </div>
 
 <div class="text-right text-xs opacity-60 mt-2 mr-12">
@@ -804,7 +804,7 @@ Context engineering para <span class="text-blue-500">escalar</span>.
 
 <div v-click class="mt-10 flex items-center justify-center gap-5">
 
-<img :src="`${import.meta.env.BASE_URL}bryan-condor.png`" alt="Bryan Condor" class="w-20 h-20 rounded-full object-cover object-[center_25%]" />
+<img :src="`${$baseUrl}bryan-condor.png`" alt="Bryan Condor" class="w-20 h-20 rounded-full object-cover object-[center_25%]" />
 
 <div class="text-left">
 <div class="text-2xl font-bold">Bryan Condor</div>
@@ -816,7 +816,7 @@ Context engineering para <span class="text-blue-500">escalar</span>.
 
 <div v-click class="mt-8 flex flex-col items-center">
 
-<img :src="`${import.meta.env.BASE_URL}feedback-qr.png`" alt="Feedback QR — Google Forms" class="w-40 h-40" />
+<img :src="`${$baseUrl}feedback-qr.png`" alt="Feedback QR — Google Forms" class="w-40 h-40" />
 
 <div class="text-sm opacity-80 mt-3">
 Feedback de la charla <span class="opacity-60">(60 seg)</span>
